@@ -7,9 +7,14 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
+    cpu_shares: 256
+    mem_limit: 500m 
+
   fastapi-app:
     build:
       context: ./backend
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+    cpu_shares: 256
+    mem_limit: 500m
