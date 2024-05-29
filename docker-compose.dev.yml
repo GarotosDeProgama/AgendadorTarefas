@@ -3,7 +3,13 @@ version: '3.8'
 services:
   vite-app:
     build:
-      context: .
+      context: ./frontend
       dockerfile: Dockerfile
     ports:
       - "80:80"
+  fastapi-app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"

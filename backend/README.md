@@ -1,0 +1,1 @@
+[![Docker Image CI](https://github.com/GarotosDeProgama/Backend_AgendadorTarefas/actions/workflows/docker-image.yml/badge.svg)](https://github.com/GarotosDeProgama/Backend_AgendadorTarefas/actions/workflows/docker-image.yml)
