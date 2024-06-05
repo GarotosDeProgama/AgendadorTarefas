@@ -14,6 +14,9 @@
             case "/":
                 loadPage("src/pages/home.html");
                 break;
+            case "/status":
+                loadPage("src/pages/status.html");
+                break;
         }
     });
 }
